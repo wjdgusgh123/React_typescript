@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./build/js",
+        "target": "ES2015",
+        "noEmitOnError": false,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM"],
+        "strict": true, // 모든 엄격한 유형 검사 옵션 활성화
+        "strictNullChecks": true, 
+        "baseUrl": "./",
+        "isolatedModules": true,
+        "removeComments": true,
+        "allowJs": true,
+        "checkJs": true,
+        "forceConsistentCasingInFileNames": true
+    },   
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
+
